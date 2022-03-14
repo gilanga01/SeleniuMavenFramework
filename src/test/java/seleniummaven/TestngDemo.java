@@ -1,6 +1,7 @@
 package seleniummaven;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -21,22 +22,29 @@ public class TestngDemo {
 	}
 
 	@Test
-	public  void login() throws InterruptedException {
+	public  void EnterEmail() throws InterruptedException {
 		driver.get("https://www.facebook.com/login.php");
 
 		WebElement unm = driver.findElement(By.id("email"));
-		unm.sendKeys("072305698");
+		unm.sendKeys("0723056984");
+	}
+	@Test
+	public  void enterPassword() throws InterruptedException {
 		WebElement pass = driver.findElement(By.id("pass"));
 		pass.sendKeys("33290450");
 		Thread.sleep(2000);
-
-		pass.submit();
 	}
+	@Test
+	public  void Submit() {
+		WebElement submit = driver.findElement(By.id("loginbutton"));
+		submit.click();
+	}
+	
     @AfterTest
 	public void tearDownTest() {
 		System.out.println("Logged in Successfully.......");
-		driver.close();
-		driver.quit();
+		//driver.close();
+		//driver.quit();
 	}
 }
 
