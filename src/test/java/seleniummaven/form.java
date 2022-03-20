@@ -13,7 +13,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class form {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 //System.setProperty("webdriver.Firefox.driver", "C:\\Users\\glanga01\\Desktop\\Selenium\\Drivers\\chromedriver.exe"); 
 		
 		//WebDriver driver = new FirefoxDriver();
@@ -47,20 +47,21 @@ public class form {
 	
 		Select dropdown2 = new Select(driver.findElement(By.id("division")));  
 		dropdown2.selectByVisibleText("Resources"); 
-		//Thread.sleep(3000);
+		Thread.sleep(3000);
 		
 		WebElement textarea = driver.findElement(By.name("message"));
 		textarea.click();
 	    textarea.sendKeys(Keys.TAB);
 	    textarea.sendKeys("test data");
+	    Thread.sleep(3000);
 		
-	    //WebElement linktext = driver.findElement(By.id("terms"));
-	    //linktext.click(); 
-	    //Thread.sleep(3000);
+	    WebElement linktext = driver.findElement(By.id("terms"));
+	    linktext.click(); 
+	    Thread.sleep(3000);
 	    
-	    //WebElement checkbox = driver.findElement(By.className("btn main-btn"));
-	    //checkbox.click();
-	    //Thread.sleep(4000);
+	    WebElement checkbox = driver.findElement(By.className("btn main-btn"));
+	    checkbox.click();
+	    Thread.sleep(4000);
 	    driver.close();
 	    driver.quit();
 	    

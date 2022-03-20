@@ -23,7 +23,7 @@ private static WebDriver driver = null;
 		
 		ExtentTest test1 = extent.createTest("Google Search Test one ","this is a test to validate google search");
 		WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        //driver = new ChromeDriver();
         //find element demo
         
         
@@ -56,7 +56,7 @@ ExtentTest test2 = extent.createTest("Google Search Test two ","this is a test t
         test2.pass("Navigated to google.com");
         
         driver.findElement(By.name("q")).sendKeys("Selenium"+ Keys.ENTER);
-        test2.fail("Entered text to Searchbox");
+        test2.pass("Entered text to Searchbox");
         
         
         //driver.findElement(By.name("btnk")).click();

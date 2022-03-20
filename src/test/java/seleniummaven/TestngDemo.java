@@ -29,10 +29,6 @@ public class TestngDemo {
 		unm.sendKeys("0723056984");
 		WebElement pass = driver.findElement(By.id("pass"));
 		pass.sendKeys("33290450");
-		}
-	
-	@Test
-	public  void Submit() {
 		WebElement submit = driver.findElement(By.id("loginbutton"));
 		submit.click();
 		}
