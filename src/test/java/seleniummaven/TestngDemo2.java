@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class TestngDemo {
+public class TestngDemo2 {
 
 	static WebDriver driver = null;
 	@BeforeTest
@@ -34,12 +34,12 @@ public class TestngDemo {
 		}
 	
 	
-    @AfterTest
-	public void tearDownTest(){
-		System.out.println("Logged in Successfully================");
-		driver.close();
-	    
-	}
+	 @AfterTest
+		public void tearDownTest(){
+			System.out.println("Logged in Successfully================");
+			driver.close();
+			
+		}
 }
 
 

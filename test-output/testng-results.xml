@@ -2,36 +2,38 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-20T09:29:10 EAT" name="Default suite" finished-at="2022-03-20T09:29:19 EAT" duration-ms="9363">
+  <suite started-at="2022-03-26T13:12:21 EAT" name="Suite" finished-at="2022-03-26T13:12:56 EAT" duration-ms="34815">
     <groups>
     </groups>
-    <test started-at="2022-03-20T09:29:10 EAT" name="Default test" finished-at="2022-03-20T09:29:19 EAT" duration-ms="9363">
-      <class name="seleniummaven.ExtentReportsDemoWithTestNG">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniummaven.ExtentReportsDemoWithTestNG@4a883b15]" started-at="2022-03-20T09:29:09 EAT" name="setUp" finished-at="2022-03-20T09:29:10 EAT" duration-ms="357" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:seleniummaven.ExtentReportsDemoWithTestNG@4a883b15]" started-at="2022-03-20T09:29:10 EAT" name="setUpTest" finished-at="2022-03-20T09:29:17 EAT" duration-ms="7079" status="PASS">
+    <test started-at="2022-03-26T13:12:21 EAT" name="Test" finished-at="2022-03-26T13:12:56 EAT" duration-ms="34815">
+      <class name="seleniummaven.TestngDemo2">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:seleniummaven.TestngDemo2@4a883b15]" started-at="2022-03-26T13:12:26 EAT" name="setUpTest" finished-at="2022-03-26T13:12:29 EAT" duration-ms="3443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="test()[pri:0, instance:seleniummaven.ExtentReportsDemoWithTestNG@4a883b15]" started-at="2022-03-20T09:29:17 EAT" name="test" finished-at="2022-03-20T09:29:19 EAT" duration-ms="1778" status="PASS">
+        <test-method signature="EnterEmail()[pri:0, instance:seleniummaven.TestngDemo2@4a883b15]" started-at="2022-03-26T13:12:29 EAT" name="EnterEmail" finished-at="2022-03-26T13:12:48 EAT" duration-ms="18771" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test2()[pri:0, instance:seleniummaven.ExtentReportsDemoWithTestNG@4a883b15]" started-at="2022-03-20T09:29:19 EAT" name="test2" finished-at="2022-03-20T09:29:19 EAT" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:seleniummaven.ExtentReportsDemoWithTestNG@4a883b15]" started-at="2022-03-20T09:29:19 EAT" name="tearDownTest" finished-at="2022-03-20T09:29:19 EAT" duration-ms="377" status="PASS">
+        </test-method> <!-- EnterEmail -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:seleniummaven.TestngDemo2@4a883b15]" started-at="2022-03-26T13:12:54 EAT" name="tearDownTest" finished-at="2022-03-26T13:12:56 EAT" duration-ms="2010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniummaven.ExtentReportsDemoWithTestNG@4a883b15]" started-at="2022-03-20T09:29:19 EAT" name="tearDown" finished-at="2022-03-20T09:29:19 EAT" duration-ms="416" status="PASS">
+      </class> <!-- seleniummaven.TestngDemo2 -->
+      <class name="seleniummaven.TestngDemo">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:seleniummaven.TestngDemo@70e9c95d]" started-at="2022-03-26T13:12:21 EAT" name="setUpTest" finished-at="2022-03-26T13:12:26 EAT" duration-ms="5114" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- seleniummaven.ExtentReportsDemoWithTestNG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setUpTest -->
+        <test-method signature="EnterEmail()[pri:0, instance:seleniummaven.TestngDemo@70e9c95d]" started-at="2022-03-26T13:12:29 EAT" name="EnterEmail" finished-at="2022-03-26T13:12:52 EAT" duration-ms="22061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterEmail -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:seleniummaven.TestngDemo@70e9c95d]" started-at="2022-03-26T13:12:52 EAT" name="tearDownTest" finished-at="2022-03-26T13:12:54 EAT" duration-ms="2132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- seleniummaven.TestngDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
