@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class TestngDemo {
+public class codechallenge {
 
 	static WebDriver driver = null;
 	@BeforeSuite
